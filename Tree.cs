@@ -1,10 +1,14 @@
 public class BinaryTree(){
-    Node root; 
+    Node? root; 
     
     public void printTree(){
         if (root == null){
             Console.WriteLine("No Elements in Tree");
         }
+        else{
+            root.printFormated(false, root);
+        }
+
         
     }
     public void addElement(int theData){
@@ -12,7 +16,7 @@ public class BinaryTree(){
             root = new Node(theData);  
         }
         else {
-           root.addElement(theData);
+           root.add(theData);
         }
     }
 }

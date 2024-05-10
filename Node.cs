@@ -9,12 +9,21 @@ public class Node{
         this.rightChild = null;
     }
 
-    public void printFormated(string theIndent, bool last, Node theNode){
+    public void printFormated( bool last, Node theNode){
         while(last == false){
+            Console.WriteLine(data);
             if (theNode.leftChild == null && theNode.rightChild == null){
+                
                 last = true;
             }
+            if (theNode.leftChild != null){
+                printFormated(last, theNode.leftChild);
+            }
+            if(theNode.rightChild != null){
+                printFormated(last, theNode.rightChild);
+            } 
         }
+        
       
     }
     

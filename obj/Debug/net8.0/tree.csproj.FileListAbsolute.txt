@@ -1,0 +1,15 @@
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/bin/Debug/net8.0/tree
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/bin/Debug/net8.0/tree.deps.json
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/bin/Debug/net8.0/tree.runtimeconfig.json
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/bin/Debug/net8.0/tree.dll
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/bin/Debug/net8.0/tree.pdb
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/obj/Debug/net8.0/tree.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/obj/Debug/net8.0/tree.AssemblyInfoInputs.cache
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/obj/Debug/net8.0/tree.AssemblyInfo.cs
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/obj/Debug/net8.0/tree.csproj.CoreCompileInputs.cache
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/obj/Debug/net8.0/tree.sourcelink.json
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/obj/Debug/net8.0/tree.dll
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/obj/Debug/net8.0/refint/tree.dll
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/obj/Debug/net8.0/tree.pdb
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/obj/Debug/net8.0/tree.genruntimeconfig.cache
+/Users/jaydendare/Documents/C#/Tree/tree/Tree-in-C-/obj/Debug/net8.0/ref/tree.dll
