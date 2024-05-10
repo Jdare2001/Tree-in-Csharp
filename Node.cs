@@ -1,8 +1,9 @@
 public class Node{
 
+    
     public int data;
-    private Node? leftChild; 
-    private Node? rightChild;
+    public Node? leftChild; 
+    public Node? rightChild;
     public Node(int theData){
         this.data = theData;
         this.leftChild = null;
@@ -34,6 +35,7 @@ public class Node{
         
       
     }
+    
     
     public void add(int theData){
         if (data < theData){

@@ -15,5 +15,8 @@ static void Main(string[] args)
     Console.WriteLine("");
     Console.WriteLine("Pre order");
     binaryTree.printTreePreOrder();
+     Console.WriteLine("");
+    Console.WriteLine("Level Order");
+    binaryTree.printTreeInLevelOrder();
 }
 }
