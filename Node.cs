@@ -21,6 +21,19 @@ public class Node{
         
       
     }
+    public void printFormatedPreOrder( Node theNode){
+       if (theNode == null){
+        return;
+       }
+       Console.Write(theNode.data + " ");
+       //null referance is handled in recersion 
+       printFormatedInOrder(theNode.leftChild);
+       
+
+       printFormatedInOrder(theNode.rightChild);
+        
+      
+    }
     
     public void add(int theData){
         if (data < theData){

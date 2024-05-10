@@ -10,6 +10,10 @@ static void Main(string[] args)
     binaryTree.addElement(7);
     binaryTree.addElement(2);
     binaryTree.addElement(1);
-    binaryTree.printTree();
+    Console.WriteLine("In order");
+    binaryTree.printTreeInOrder();
+    Console.WriteLine("");
+    Console.WriteLine("Pre order");
+    binaryTree.printTreePreOrder();
 }
 }

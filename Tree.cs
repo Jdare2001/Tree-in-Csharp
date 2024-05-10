@@ -1,15 +1,21 @@
 public class BinaryTree(){
     Node? root; 
     
-    public void printTree(){
+    public void printTreeInOrder(){
         if (root == null){
             Console.WriteLine("No Elements in Tree");
         }
         else{
-            root.printFormated(root);
+            root.printFormatedInOrder(root);
+        } 
+    }
+    public void printTreePreOrder(){
+        if (root == null){
+            Console.WriteLine("No Elements in Tree");
         }
-
-        
+        else{
+            root.printFormatedPreOrder(root);
+        } 
     }
     public void addElement(int theData){
         if (root==null){
