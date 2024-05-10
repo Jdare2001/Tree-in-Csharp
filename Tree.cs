@@ -6,7 +6,7 @@ public class BinaryTree(){
             Console.WriteLine("No Elements in Tree");
         }
         else{
-            root.printFormated(false, root);
+            root.printFormated(root);
         }
 
         

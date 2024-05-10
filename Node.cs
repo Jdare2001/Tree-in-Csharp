@@ -9,20 +9,15 @@ public class Node{
         this.rightChild = null;
     }
 
-    public void printFormated( bool last, Node theNode){
-        while(last == false){
-            Console.WriteLine(data);
-            if (theNode.leftChild == null && theNode.rightChild == null){
-                
-                last = true;
-            }
-            if (theNode.leftChild != null){
-                printFormated(last, theNode.leftChild);
-            }
-            if(theNode.rightChild != null){
-                printFormated(last, theNode.rightChild);
-            } 
-        }
+    public void printFormatedInOrder( Node theNode){
+       if (theNode == null){
+        return;
+       }
+       //null referance is handled in recersion 
+       printFormatedInOrder(theNode.leftChild);
+       Console.Write(theNode.data + " ");
+
+       printFormatedInOrder(theNode.rightChild);
         
       
     }
@@ -38,7 +33,7 @@ public class Node{
         }
         if (data > theData){
             if (rightChild == null){
-                leftChild = new Node(theData);
+                rightChild = new Node(theData);
             }
             else{
                 rightChild.add(theData);

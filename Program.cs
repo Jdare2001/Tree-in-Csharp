@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-public class program{
+public class Program{
 static void Main(string[] args)
 {
     BinaryTree binaryTree= new BinaryTree();
