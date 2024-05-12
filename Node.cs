@@ -38,7 +38,7 @@ public class Node{
     
     
     public void add(int theData){
-        if (data < theData){
+        if (data > theData){
             if (leftChild == null){
                 leftChild = new Node(theData);
             }
@@ -46,7 +46,7 @@ public class Node{
                 leftChild.add(theData);
             }
         }
-        if (data > theData){
+        if (data < theData){
             if (rightChild == null){
                 rightChild = new Node(theData);
             }
